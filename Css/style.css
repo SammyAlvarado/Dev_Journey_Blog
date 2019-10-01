@@ -24,6 +24,10 @@ a {
 
 /* ----- base layout style -------- */
 
+.name {
+    color: black;
+}
+
 /* ----- container  styles -------- */
 
 .main-header {
@@ -44,6 +48,10 @@ a {
 
 /* ----- puesdo element s -------- */
 
+.name a, 
+.main-nav a {
+    padding: 10px 15px;
+}
 
 
 
@@ -61,6 +69,16 @@ media queries
         width: 70%;
         max-width: 1000px;
         margin: 0 auto;
+    }
+
+    .name,
+    .main-nav,
+    .main-nav li {
+        display: inline;
+    }
+
+    .name {
+        margin-right: 50px;
     }
 }
 
