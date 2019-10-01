@@ -1,6 +1,11 @@
 
 
-/* ----- base element style -------- */
+/* =========================
+ base element style 
+ ========================= */
+ * {
+     box-sizing: border-box;
+ }
 
 h1 {
     margin-top: 0;
@@ -42,8 +47,16 @@ a {
 
 
 
-/* -----  media queries -------- */
+/* ==================
+media queries 
+=================== */
+
 @media (min-width: 650px) {
+   
+    .wrapper {
+        min-height: calc(100vh - 89px);
+    }
+
     .container {
         width: 70%;
         max-width: 1000px;
