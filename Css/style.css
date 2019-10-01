@@ -1,4 +1,54 @@
 
 
+/* ----- base element style -------- */
+
+h1 {
+    margin-top: 0;
+}
+
+body {
+    line-height:  1.5;
+    color: rgb(95, 95, 95);
+    margin: 0;
+}
+
+a {
+    color: rgb(243, 103, 103);
+    text-decoration: none;
+}
+
+/* ----- base layout style -------- */
+
+/* ----- container  styles -------- */
+
+.main-header {
+    background-color: rgb(0, 162, 255);
+    padding: 1em 0;
+}
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-footer {
+    text-align: center;
+    background-color: rgb(0, 162, 255);
+    padding: 2em 0;
+}
+
+/* ----- puesdo element s -------- */
+
+
+
+
+/* -----  media queries -------- */
+@media (min-width: 650px) {
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
 
 
