@@ -9,6 +9,7 @@
 
 h1 {
     margin-top: 0;
+    font-size: 1.5em;
 }
 
 body {
@@ -50,7 +51,9 @@ a {
 
 .name a, 
 .main-nav a {
+    background: #fff;
     padding: 10px 15px;
+    display: block;
 }
 
 
@@ -74,11 +77,13 @@ media queries
     .name,
     .main-nav,
     .main-nav li {
-        display: inline;
+        display: inline-block;
     }
 
     .name {
+        width: 250px;
         margin-right: 50px;
+        margin-top: 50px;
     }
 }
 
