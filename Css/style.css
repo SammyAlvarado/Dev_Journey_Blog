@@ -9,6 +9,11 @@
 
 h1 {
     margin-top: 0;
+    font-size: 1.789em;
+}
+
+h2,
+h3 {
     font-size: 1.5em;
 }
 
@@ -19,12 +24,14 @@ body {
     margin: 0;
 }
 
-a {
-    color: rgb(243, 103, 103);
-    text-decoration: none;
-}
 
-/* ----- base layout style -------- */
+
+/* =========================
+ base layout style 
+ ========================= */
+
+/* ----- Navigation  -------- */
+
 
 .name {
     color: black;
@@ -37,7 +44,7 @@ a {
     text-align: center;
 }
 
-/* ----- container  styles -------- */
+/* ---- Layout Containers ---- */
 
 .main-header {
     text-align: center;
@@ -56,13 +63,17 @@ a {
     padding: 2em 0;
 }
 
-/* ----- puesdo element s -------- */
+/* ----- puesdo -------- */
 
 .name a, 
 .main-nav a {
     background: #fff;
-    padding: 10px 15px;
+    padding: 10px 20px;
     display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -71,7 +82,7 @@ a {
 media queries 
 =================== */
 
-@media (min-width: 650px) {
+@media (min-width: 700px) {
    
     .wrapper {
         min-height: calc(100vh - 89px);
@@ -83,16 +94,36 @@ media queries
         margin: 0 auto;
     }
 
-    .name,
+    /* .name,
     .main-nav li {
         display: inline-block;
     }
+
+    .main-nav li {
+        margin-right: 12px;
+    }
+
+    .name {
+        float: right;
+    }
+
 
     .name {
         width: 240px;
         margin-right: 50px;
         margin-top: 50px;
     }
+
+    .advice-img {
+        width: 300px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        padding: 5px;
+        border: solid 1px #d9e4ea;
+        }
+    } */
 
 
 }
