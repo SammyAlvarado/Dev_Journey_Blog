@@ -1,5 +1,3 @@
-
-
 /* =========================
  base element style 
  ========================= */
@@ -7,74 +5,75 @@
      box-sizing: border-box;
  }
 
-h1 {
-    margin-top: 0;
-    font-size: 1.789em;
-}
+ h2 {
+     font-size: 1.25em; /* -- 20px/16px -- */
+ }
 
-h2,
-h3 {
-    font-size: 1.5em;
-}
+ h3 {
+     font-size: 1.125em; /* -- 18px/16px -- */
+ }
 
-
-body {
-    line-height:  1.5;
-    color: rgb(95, 95, 95);
-    margin: 0;
-}
-
-
+ body {
+     font-size: 1em; /* -- 16px/16px -- */ 
+     line-height: 25px;
+     margin: 0; /* -- For some reason this removes the magin from the content -- */
+ }
 
 /* =========================
- base layout style 
+ base layout style
  ========================= */
 
 /* ----- Navigation  -------- */
 
-
-.name {
-    color: black;
-}
-
-.title {
-    padding: 150px auto;
-    margin: auto;
-    font-size: 1.685em;
+.main-header {
+    background-color: rgb(30, 120, 255);
+    display: in-block;
     text-align: center;
+    padding: 15px 10px;
 }
+
+.top-title {
+    font-size: 2.1875em; /* -- 35px/16px -- */
+    color: #2b2b2b;
+    margin: 0;
+    padding: 10px;
+ }
+
+.main-nav a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
 
 /* ---- Layout Containers ---- */
 
-.main-header {
-    text-align: center;
-    background-color: rgb(0, 162, 255);
-    padding: 1em 0;
+.intro-banner {
+    background-image: url("https://placeimg.com/250/250/people");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
 }
 
-.container {
-    padding-left: 1em;
-    padding-right: 1em;
+.banner-text {
+    text-align: center;
+    color: aliceblue;
 }
 
-.main-footer {
-    text-align: center;
-    background-color: rgb(0, 162, 255);
-    padding: 2em 0;
+.continer {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.divider {
+    border-top: 1px solid lightcoral;
+    padding: 5px 5px;
 }
 
 /* ----- puesdo -------- */
 
-.name a, 
-.main-nav a {
-    background: #fff;
-    padding: 10px 20px;
-    display: block;
-}
-
-a {
-    text-decoration: none;
-}
 
 
 
@@ -88,42 +87,6 @@ media queries
         min-height: calc(100vh - 89px);
     }
 
-    .container {
-        width: 70%;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    /* .name,
-    .main-nav li {
-        display: inline-block;
-    }
-
-    .main-nav li {
-        margin-right: 12px;
-    }
-
-    .name {
-        float: right;
-    }
-
-
-    .name {
-        width: 240px;
-        margin-right: 50px;
-        margin-top: 50px;
-    }
-
-    .advice-img {
-        width: 300px;
-        float: left;
-        margin-top: 10px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-        padding: 5px;
-        border: solid 1px #d9e4ea;
-        }
-    } */
 
 
 }
