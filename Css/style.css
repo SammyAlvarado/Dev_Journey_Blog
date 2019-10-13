@@ -25,6 +25,7 @@
 
 /* ----- Navigation  -------- */
 
+
 .main-header {
     background-color: rgb(30, 120, 255);
     display: in-block;
@@ -41,7 +42,15 @@
 
 .main-nav a {
     text-decoration: none;
+    
     margin-top: 20px;
+}
+
+.main-footer {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 10px 10px;
+
 }
 
 
@@ -72,6 +81,11 @@
     padding: 5px 5px;
 }
 
+.container {
+    width: 4%;
+    margin: 0 auto;
+}
+
 /* ----- puesdo -------- */
 
 
@@ -86,6 +100,8 @@ media queries
     .wrapper {
         min-height: calc(100vh - 89px);
     }
+
+    
 
 
 
